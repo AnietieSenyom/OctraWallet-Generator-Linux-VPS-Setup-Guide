@@ -137,9 +137,4 @@ Type `exit` inside the screen window
 
 ## ✅ Done!
 
-You now have the Octra Wallet Generator running securely and persistently on your VPS.  
-Share this guide with your team or fork it for your own customized wallet setups 🚀
-
----
-
-*Need a license badge or helpful links added? Let me know!*
+You now have the Octra Wallet Generator running securely and persistently on your VPS.
