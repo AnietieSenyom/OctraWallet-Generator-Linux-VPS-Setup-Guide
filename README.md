@@ -1,4 +1,4 @@
-# 🔐 Octra Wallet Generator — Linux VPS Setup Guide
+# 🔐 Octra Wallet Generator — Linux Setup Guide
 
 A secure and efficient way to generate Octra wallets directly from your own VPS.  
 This guide walks you through setting up and running the **Octra Wallet Generator v4** using the **pre-built Linux binary**.
