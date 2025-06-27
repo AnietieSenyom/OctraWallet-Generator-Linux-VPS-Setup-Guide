@@ -30,9 +30,9 @@ Start a `screen` session to keep the wallet generator alive even after disconnec
 screen -S octa
 ```
 
-You’ll be dropped into a new terminal window inside the screen session.
+You’ll be dropped into a new terminal window inside the screen session, then proceed from step 1
 
-> To detach: `Ctrl + A`, then `D`  
+> To detach when done: `Ctrl + A`, then `D`  
 > To reattach:  
 ```bash
 screen -r octa
