@@ -22,7 +22,7 @@ sudo apt install -y wget tar screen
 
 ---
 
-## 🖥️ Start a Persistent Screen Session
+## 🖥️ Open New Screen Session
 
 Start a `screen` session to keep the wallet generator alive even after disconnection:
 
@@ -37,7 +37,6 @@ You’ll be dropped into a new terminal window inside the screen session.
 ```bash
 screen -r octa
 ```  
-> To exit and stop: type `exit` inside the screen
 
 ---
 
@@ -89,7 +88,7 @@ You’ll see the Octra Wallet Generator interface — click **"Generate New Wall
 
 ## 🔓 Open Firewall Port 8888 (If Needed)
 
-If the web interface doesn't load, open the port:
+If the web interface doesn't load, detach screen and open the port:
 
 **For UFW users:**
 
@@ -112,26 +111,6 @@ sudo iptables -A INPUT -p tcp --dport 8888 -j ACCEPT
 - **Do not store wallets on cloud storage**
 - **For real wallets, use this tool only on secure or air-gapped machines**
 - **Back up generated keys immediately and securely**
-
----
-
-## 🧵 Screen Commands Summary
-
-- Start session:  
-```bash
-screen -S octa
-```
-
-- Detach session:  
-`Ctrl + A`, then `D`
-
-- Reattach session:  
-```bash
-screen -r octa
-```
-
-- Exit session:  
-Type `exit` inside the screen window
 
 ---
 
