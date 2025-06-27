@@ -24,7 +24,7 @@ sudo apt install -y wget tar screen
 
 ## 🖥️ Open New Screen Session
 
-Start a `screen` session to keep the wallet generator alive even after disconnection:
+Start a `screen` session to keep the wallet generator alive:
 
 ```bash
 screen -S octa
@@ -109,11 +109,4 @@ sudo iptables -A INPUT -p tcp --dport 8888 -j ACCEPT
 
 - **Never share your mnemonic or private keys**
 - **Do not store wallets on cloud storage**
-- **For real wallets, use this tool only on secure or air-gapped machines**
 - **Back up generated keys immediately and securely**
-
----
-
-## ✅ Done!
-
-You now have the Octra Wallet Generator running securely and persistently on your VPS.
